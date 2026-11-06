@@ -4,6 +4,7 @@ import { generateSidebar } from "vitepress-sidebar";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/xkx-blog/",
+  ignoreDeadLinks: true,
   title: "江湖夜雨十年灯，代码三千行",
   titleTemplate: ":title | xkx-blog",
   description: "以键为剑，以屏为江湖——一个程序员的技术日志",
