@@ -1,0 +1,6 @@
+/* 覆盖 VitePress 品牌色（按钮、高亮） */
+:root {
+  --vp-c-brand-1: #c0392b; /* 剑穗红 */
+  --vp-c-brand-2: #a93226;
+  --vp-c-brand-3: #922b21;
+}

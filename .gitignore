@@ -1,0 +1,27 @@
+# 依赖目录
+node_modules/
+
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# 日志文件，环境变量文件
+*.log
+.env
+.env.local
+.env.*.local
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 包管理器调试日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
